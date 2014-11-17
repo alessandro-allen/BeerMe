@@ -1,0 +1,10 @@
+<?php
+//Get the beer list as a JSON file
+$beer_list_json = file_get_contents("beerlist.json");
+$beer_list = json_decode($beer_list_json, true);
+
+function transfer($beer, $style){
+
+
+
+?>
